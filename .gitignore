@@ -1,0 +1,28 @@
+# Python environments and local tooling
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Private credentials and local settings
+.env
+.env.*
+!.env.example
+*token*.txt
+*credentials*.json
+
+# Original datasets, intermediate caches, fitted estimators, generated figures
+data/*
+!data/README.md
+*.nc
+*.zip
+*.pkl
+*.joblib
+cache/
+models/
+Paper_Ultimate_Final_Tuned/
+

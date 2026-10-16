@@ -1,0 +1,12 @@
+pandas
+numpy
+xarray
+netCDF4
+scikit-learn
+xgboost
+shap
+matplotlib
+scipy
+joblib
+dask
+arch
